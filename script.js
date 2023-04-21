@@ -1,10 +1,21 @@
-//your JS code here. If required.
-var x = document.getElementById("myAudio"); 
+let appl = document.getElementById("appl");
+let boo = document.getElementById("boo");
+let gasp = document.getElementById("gasp");
+let tada = document.getElementById("tada");
+let vic = document.getElementById("vic");
+let wrg = document.getElementById("wrg");
+let aud = document.getElementById("audio");
 
-function playAudio() { 
-  x.play(); 
-} 
+appl.addEventListener('click', myFunc);
+boo.addEventListener('click', myFunc);
+gasp.addEventListener('click', myFunc);
+tada.addEventListener('click', myFunc);
+vic.addEventListener('click', myFunc);
+wrg.addEventListener('click', myFunc);
 
-function pauseAudio() { 
-  x.pause(); 
-} 
+function myFunc() {
+	aud.play();
+}
+function pause() {
+	aud.pause();	
+}

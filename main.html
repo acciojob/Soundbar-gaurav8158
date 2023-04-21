@@ -8,20 +8,16 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<audio id="myAudio">
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-	<sounds>
-		<button id="buttons" onclick="playAudio()" class= "btn" >opplause</button>
-		<button id="buttons" onclick="playAudio()" class= "btn" >boo</button>
-		<button id="buttons" onclick="playAudio()" class= "btn" >gasp</button>
-		<button id="buttons" onclick="playAudio()" class= "btn" >tada</button>
-		<button id="buttons" onclick="playAudio()" class= "btn" >victory</button>
-		<button id="buttons" onclick="playAudio()" class= "btn" >wrong</button>
-		<button id="buttons" onclick="pauseAudio()" class= "btn stop" >stop</button>
-	</sounds>
+	<audio  id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+	<div id = "buttons">
+		<button id ="appl" class= "btn">applause</button>
+		<button id ="boo" class="btn">boo</button>
+		<button id ="gasp" class="btn">gasp</button>
+		<button id ="tada" class="btn">tada</button>
+		<button id ="vic" class="btn">victory</button>
+		<button id ="wrg" class="btn">wrong</button>
+		<button onclick="pause()" class="stop">stop</button>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
