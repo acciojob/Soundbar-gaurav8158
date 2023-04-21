@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+*{
+	background-color: rgb(173, 93, 248);
+	
+}
+.btn{
+	background-color:blueviolet;
+	border:none;
+	padding:10px;
+	color:white;
+}
+sounds{
+	display:flex;
+	flex-direction:row;
+	 justify-content: space-between;
+align-items: center;
+}
